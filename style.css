@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(240, 248, 248);
+}
+
+h2 {
+    display: inline-block;
+    margin-block: 20px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+p {
+    display: inline-flex;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: auto 10px;
+    border: 1.5px solid red;
+    border-radius: 8px;
+}
